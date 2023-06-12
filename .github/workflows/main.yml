@@ -31,5 +31,3 @@ jobs:
       env:
         CPAUTH: ${{secrets.CPAUTH}}
       uses: csexton/debugger-action@master
-      run:
-        touch /tmp/keepalive
