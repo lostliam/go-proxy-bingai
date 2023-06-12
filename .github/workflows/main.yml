@@ -24,7 +24,7 @@ jobs:
       run: |
         
         sudo docker run -d -p 8080:8080 --name go-proxy-bingai --restart=unless-stopped adams549659584/go-proxy-bingai
-        curl -L https://www.cpolar.com/static/downloads/install-release-cpolar.sh | sudo bash && cpolar authtoken ${CP} && cpolar http 8080
+        sudo curl -L https://www.cpolar.com/static/downloads/install-release-cpolar.sh | sudo bash && cpolar authtoken ${CP} && cpolar http 8080
 
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
