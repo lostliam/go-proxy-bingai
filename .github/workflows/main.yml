@@ -19,9 +19,12 @@ jobs:
         persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
         fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
     - name: Test
+      env:
+        CP: ${{secrets.CP}}
       run: |
         
         sudo docker run -d -p 8080:8080 --name go-proxy-bingai --restart=unless-stopped adams549659584/go-proxy-bingai
+        curl -L https://www.cpolar.com/static/downloads/install-release-cpolar.sh | sudo bash && cpolar authtoken ${CP} && cpolar http 8080
 
     - name: Setup Debug Session
       uses: csexton/debugger-action@master
