@@ -22,11 +22,7 @@ jobs:
       env:
         CPAUTH: ${{secrets.CPAUTH}}
       run: |
-        curl -L https://www.cpolar.com/static/downloads/install-release-cpolar.sh | sudo bash && cpolar authtoken ${CPAUTH} && cpolar http 8080
         sudo docker run -d -p 8080:8080 --name go-proxy-bingai --restart=unless-stopped adams549659584/go-proxy-bingai
-
-
-
     - name: Setup Debug Session
       env:
         CPAUTH: ${{secrets.CPAUTH}}
