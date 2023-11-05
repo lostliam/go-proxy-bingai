@@ -1,7 +1,7 @@
 #---------------------------------------------------#
-## 更新：2023-11-04 03:42:35
+## 更新：2023-11-05 03:42:48
 ## 感谢：https://github.com/Hackl0us/SS-Rule-Snippet
-## 链接：https://sub-g2.gogoo.work/link/E6gbh7o9WVqzFazp?clash=1
+## 链接：https://sub-g2.gogoo.work/link/GmrQ65NwMEYaqxgh?clash=1
 #---------------------------------------------------#
 
 # HTTP 代理端口
@@ -35,44 +35,44 @@ secret: ''
 
 # Proxy
 proxies:
-  - {"name":"V1 Vmess | Auto","type":"vmess","server":"x1.go002.xyz","port":31001,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 Vmess | HK B1","type":"vmess","server":"x1.go002.xyz","port":31121,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 Vmess | JP B1","type":"vmess","server":"go.cn1.go002.xyz","port":31321,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 Vmess | TW B1","type":"vmess","server":"go.cn1.go002.xyz","port":31221,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 Vmess | US A1","type":"vmess","server":"go.cn1.go002.xyz","port":31612,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 Vmess | US B1","type":"vmess","server":"go.cn1.go002.xyz","port":31622,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 大流量专线 | HK A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30111,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 大流量专线 | JP A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30311,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 大流量专线 | SG A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30411,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 大流量专线 | TW A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30211,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 大流量专线 | US A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30611,"uuid":"77bb23c6-fda9-3c4a-b45c-1fcfc7eb99ab","alterId":0,"cipher":"auto","udp":true}
-  - {"name":"V1 IEPL | A AUTO","type":"ss","server":"go.cm.go002.xyz","port":31000,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | AR1","type":"ss","server":"go.cm.go002.xyz","port":31904,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | AU1","type":"ss","server":"go.cm.go002.xyz","port":31913,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | CA1","type":"ss","server":"go.cm.go002.xyz","port":31908,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | CH1","type":"ss","server":"go.cm.go002.xyz","port":31903,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | DE1","type":"ss","server":"go.cm.go002.xyz","port":31906,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | FR1","type":"ss","server":"go.cm.go002.xyz","port":31907,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | GB1","type":"ss","server":"go.cm.go002.xyz","port":31905,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | HK1","type":"ss","server":"go.cm.go002.xyz","port":31101,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | HK2","type":"ss","server":"go.cm.go002.xyz","port":31102,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | ID1","type":"ss","server":"go.cm.go002.xyz","port":31911,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | IN1","type":"ss","server":"go.cm.go002.xyz","port":31909,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | JP1","type":"ss","server":"go.cm.go002.xyz","port":31301,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | JP2","type":"ss","server":"go.cm.go002.xyz","port":31301,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | JP2 Native","type":"ss","server":"go.cm.go002.xyz","port":31302,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | KR1","type":"ss","server":"go.cm.go002.xyz","port":31501,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | MY1","type":"ss","server":"go.cm.go002.xyz","port":31912,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | NL1","type":"ss","server":"go.cm.go002.xyz","port":31902,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | RU1","type":"ss","server":"go.cm.go002.xyz","port":31701,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | SG1","type":"ss","server":"go.cm.go002.xyz","port":31401,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | SG2","type":"ss","server":"go.cm.go002.xyz","port":31401,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | TH1","type":"ss","server":"go.cm.go002.xyz","port":31910,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | TR1","type":"ss","server":"go.cm.go002.xyz","port":31901,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | TW1","type":"ss","server":"go.cm.go002.xyz","port":31201,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | TW2","type":"ss","server":"go.cm.go002.xyz","port":31201,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | US1","type":"ss","server":"go.cm.go002.xyz","port":31601,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
-  - {"name":"V1 IEPL | US2","type":"ss","server":"go.cm.go002.xyz","port":31601,"cipher":"aes-256-gcm","password":"XKP6yR","udp":true}
+  - {"name":"V1 Vmess | Auto","type":"vmess","server":"x1.go002.xyz","port":31001,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 Vmess | HK B1","type":"vmess","server":"x1.go002.xyz","port":31121,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 Vmess | JP B1","type":"vmess","server":"go.cn1.go002.xyz","port":31321,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 Vmess | TW B1","type":"vmess","server":"go.cn1.go002.xyz","port":31221,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 Vmess | US A1","type":"vmess","server":"go.cn1.go002.xyz","port":31612,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 Vmess | US B1","type":"vmess","server":"go.cn1.go002.xyz","port":31622,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 大流量专线 | HK A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30111,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 大流量专线 | JP A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30311,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 大流量专线 | SG A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30411,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 大流量专线 | TW A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30211,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 大流量专线 | US A1 0.6倍率","type":"vmess","server":"go.ct1.go002.xyz","port":30611,"uuid":"d15684cb-59b3-3a89-9f49-982b06f676bf","alterId":0,"cipher":"auto","udp":true}
+  - {"name":"V1 IEPL | A AUTO","type":"ss","server":"go.cm.go002.xyz","port":31000,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | AR1","type":"ss","server":"go.cm.go002.xyz","port":31904,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | AU1","type":"ss","server":"go.cm.go002.xyz","port":31913,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | CA1","type":"ss","server":"go.cm.go002.xyz","port":31908,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | CH1","type":"ss","server":"go.cm.go002.xyz","port":31903,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | DE1","type":"ss","server":"go.cm.go002.xyz","port":31906,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | FR1","type":"ss","server":"go.cm.go002.xyz","port":31907,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | GB1","type":"ss","server":"go.cm.go002.xyz","port":31905,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | HK1","type":"ss","server":"go.cm.go002.xyz","port":31101,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | HK2","type":"ss","server":"go.cm.go002.xyz","port":31102,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | ID1","type":"ss","server":"go.cm.go002.xyz","port":31911,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | IN1","type":"ss","server":"go.cm.go002.xyz","port":31909,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | JP1","type":"ss","server":"go.cm.go002.xyz","port":31301,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | JP2","type":"ss","server":"go.cm.go002.xyz","port":31301,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | JP2 Native","type":"ss","server":"go.cm.go002.xyz","port":31302,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | KR1","type":"ss","server":"go.cm.go002.xyz","port":31501,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | MY1","type":"ss","server":"go.cm.go002.xyz","port":31912,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | NL1","type":"ss","server":"go.cm.go002.xyz","port":31902,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | RU1","type":"ss","server":"go.cm.go002.xyz","port":31701,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | SG1","type":"ss","server":"go.cm.go002.xyz","port":31401,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | SG2","type":"ss","server":"go.cm.go002.xyz","port":31401,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | TH1","type":"ss","server":"go.cm.go002.xyz","port":31910,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | TR1","type":"ss","server":"go.cm.go002.xyz","port":31901,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | TW1","type":"ss","server":"go.cm.go002.xyz","port":31201,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | TW2","type":"ss","server":"go.cm.go002.xyz","port":31201,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | US1","type":"ss","server":"go.cm.go002.xyz","port":31601,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
+  - {"name":"V1 IEPL | US2","type":"ss","server":"go.cm.go002.xyz","port":31601,"cipher":"aes-256-gcm","password":"LOVWec","udp":true}
 
 # Proxy Group
 proxy-groups:
